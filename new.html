@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Code</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        height: 100vh;
+        background-color: rgb(213, 225, 239);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 400px;
+        width: 280px;
+        border-radius: 10px;
+        background-color: white;
+      }
+      .image {
+        width: 260px;
+      }
+      img {
+        width: 100%;
+        border-radius: 10px;
+      }
+      .heading {
+        font-weight: 800;
+        width: 220px;
+        font-size: 1.1rem;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        line-break: auto;
+      }
+      .paragraph {
+        font-size: 0.8rem;
+        color: slategray;
+        font-weight: 100;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        width: 220px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image">
+        <img
+          src="./qr-code-component-main/qr-code-component-main/image-qr-code.png"
+          alt="qr code" />
+      </div>
+      <div class="heading">
+        <p>Improve your front-end skills by building projects</p>
+      </div>
+      <div class="paragraph">
+        <p>
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
